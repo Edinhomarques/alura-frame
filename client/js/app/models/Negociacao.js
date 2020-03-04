@@ -16,7 +16,7 @@ class Negociacao {
   get date() {
     return new Date(this._date.getTime());
   }
-
+ 
   get amount() {
     return this._amount
   }
